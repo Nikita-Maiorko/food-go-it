@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fefefe;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.backdrop {
+}
+.is-open {
+}
+.modal {
+}
+.modal-close-btn {
+}
+.modal-close-icon {
+}
+.modal-title {
+}
+.modal-form {
+}
+.modal-form-field {
+}
+.modal-label {
+}
+.modal-input {
+}
+.icon-error {
+}
+.modal-form-btn {
+}

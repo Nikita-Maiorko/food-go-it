@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form">
+          <div class="modal-form-field">
+            <label class="modal-label" for="user-name">Name</label>
+            <input
+              class="modal-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Your name"
+              pattern="[a-z]{3,25}"
+              required
+            />
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-label" for="user-tel">Phone number</label>
+            <input
+              class="modal-input"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              required
+            />
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-label" for="user-email">E-mail</label>
+            <input
+              class="modal-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="example@gmail.com"
+              required
+            />
+            <svg class="icon-error" width="12" height="12">
+              <use href="./images/icons.svg#icon-error"></use>
+            </svg>
+          </div>
+          <button class="modal-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
